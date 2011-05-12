@@ -1,5 +1,4 @@
 ---
-layout: headerlarge
 title: hello world
 ---
 

@@ -46,5 +46,3 @@ def tail(filename, n):
 
     return list(reversed(res))
 {% endhighlight %}
-
-<script src="https://gist.github.com/422946.js?file=tail.py"></script>

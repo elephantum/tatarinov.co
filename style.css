@@ -291,3 +291,8 @@ pre
 	font-size: 10pt;
 	line-height: 1em;
 }
+
+.python .k, .python .kn
+{
+	color: darkblue;
+}

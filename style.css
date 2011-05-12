@@ -1,0 +1,287 @@
+body {
+    background-color: lightgrey;
+    font-size: 12pt;
+    font-family: Arial, Verdana, Helvetica, sans serif;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    margin-left: -0.4em;
+    padding-left: 0.4em;
+    margin-right: -0.4em;
+    padding-right: 0.4em;
+    margin-top: -0.2em;
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+    padding-bottom: 0.2em;
+}
+
+a:hover {
+	background-color: lightblue;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.header {
+/*    background-color: lightgrey; */
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.about {
+    float: right;
+    margin: 1em;
+    padding: 1em;
+    background-color: lightgrey;
+    display: inline-block;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.content_container {
+    padding-top: 2em;
+/*    margin-top: 2em; */
+    background-color: white;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+    /*padding-left: 2em;*/
+    /*padding-right: 2em;*/
+    /*padding-top: 1em;*/	
+/*    background-color: lightblue; */
+}
+
+.content .article {
+    padding-bottom: 2em;
+}
+
+.left_spaced {
+	margin-left: 1em;
+}
+
+.tag_list {
+	font-size: 75%;
+}
+
+.tag_list a {
+	text-decoration: none;
+
+	color: white;
+	background-color: lightgrey;
+
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	border-radius: 1em;
+	margin: 0;
+	margin-right: 0.1em;
+}
+
+.tag_list a:hover {
+	background-color: lightblue;
+}
+
+.timestamp {
+    color: gray;
+}
+
+.comments {
+}
+
+/* Info block */
+
+.info_mini_container {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.info_container {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+}
+
+.info h2 {
+	margin: 0;
+}
+
+.myself {
+	max-width: 30em;
+	padding-right: 2em;
+}
+
+.photo-placeholder {
+	width: 100px; 
+	height: 100px; 
+	background-color: darkgrey; 
+	display: block; 
+	float: left; 
+	margin-right: 1em; 
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+
+/* The other stuff */
+
+h1.admin-page-title
+{
+    text-align: center;
+}
+
+div.admin-main-buttons
+{
+}
+
+div.admin-page-area
+{
+    margin-left: 0;
+}
+
+div.admin-page-area input
+{
+    margin-left: 0;
+}
+
+li.admin-draft
+{
+    color: red;
+}
+
+li.admin-draft a
+{
+    color: red;
+}
+
+li.admin-published
+{
+    color: black;
+}
+
+li.admin-published a
+{
+    color: black;
+}
+
+#articles_container
+{
+    border: 1px solid #dddddd;
+    padding: 1em;
+}
+
+table.article
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.article_title
+{
+    font-size: 150%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color: black;
+}
+
+.article-footer
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* font-size: 50%;*/
+    color: gray;
+    text-align: left;
+}
+
+#tag-cloud 
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px dashed #dddddd;
+    text-align: center;
+}
+
+#tag-cloud a:visited 
+{
+    text-decoration: none;
+    border: none;
+}
+
+#tag-cloud a:link
+{
+    text-decoration: none;
+    border: none;
+}
+
+#tag-cloud a:active
+{
+    text-decoration: underline;
+    color: grey;
+    border: none;
+}
+
+#tag-cloud a:hover
+{
+    text-decoration: underline;
+    color: grey;
+    border: none;
+}
+
+#tag-cloud div
+{
+    padding: 4px;
+}
+
+.tag-cloud-tiny
+{
+    font-size: 8pt;
+}
+
+.tag-cloud-small 
+{
+    font-size: 10pt;
+}
+
+.tag-cloud-medium 
+{
+    font-size: 12pt;
+}
+
+.tag-cloud-large 
+{
+    font-size: 14pt;
+}
+
+.tag-cloud-huge
+{
+    font-size: 16pt;
+}

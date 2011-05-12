@@ -7,12 +7,8 @@
 </head>
 
 <body>
-<div class="info_mini_container">
-	<div class="info">
-		<div style="display: block; float: left; width: 1.5em; height: 1.5em; background-color: darkgrey; margin-right: 0.5em;"></div>
-		<a href="/">Elephantropy blog</a>
-	</div>
-</div>
+
+{% include info_mini.html %}
 
 <div class="content_container">
   <div class="content">
@@ -21,21 +17,7 @@
   </div>
 </div>
 
-<div class="info_container">
-    <div class="info">
-        <table width="100%" border="0"><tr>
-            <td width="60%" valign="top">
-                <div class="myself">
-                    <div class="photo-placeholder"></div>
-                    <h2><a href="/">elephantum's dev blog</a></h2>
-                    <p>Blog by <a href="http://about.me/elephantum/">me</a>.</p>
-                </div>
-            </td>
-            <td width="40%" valign="top">
-            </td>
-        </tr></table>
-    </div>
-</div>
+{% include info_large.html %}
 
 </body>
 </html>

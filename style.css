@@ -285,3 +285,8 @@ table.article
 {
     font-size: 16pt;
 }
+
+pre
+{
+	line-height: 1em;
+}

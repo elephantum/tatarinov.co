@@ -1,0 +1,19 @@
+---
+layout: header_large
+title: elephantum.github.com
+---
+
+{% for post in site.posts %}
+	<div class="article">
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	  
+		{{ post.content }}
+	
+		<span class="article_info">
+			<span class="timestamp">{{ post.date | date:"%d %B, %Y" }}</span>
+			<!-- <span class="left_spaced">
+				<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="blog_{{ article.slug }}">Comments</a> -->
+			</span>
+		</span>
+	</div>
+{% endfor %}

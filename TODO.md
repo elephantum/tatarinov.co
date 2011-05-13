@@ -1,0 +1,3 @@
+- disqus comments
+- google analytics
+- rss/atom feed

@@ -1,6 +1,8 @@
--*- mode: outline -*-
+---
+layout: nil
+---
 
 * rss/atom feed
-** template
-** feedburner
+  * template
+  * feedburner
 * disqus comments

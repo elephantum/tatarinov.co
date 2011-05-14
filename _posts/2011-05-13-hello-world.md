@@ -23,7 +23,7 @@ So, when it turned out that [GitHub Pages][] combine pros of both blog
 hostings and custom blog engine with the cost of some manual
 fine-tuning, it was a bliss.
 
-My minimal set of features I want blog to have is:
+The minimal set of features I want my blog to have is:
 
 * Markdown support,
 * code systax highlighting,
@@ -33,15 +33,15 @@ My minimal set of features I want blog to have is:
 
 So I had to do the following things:
 
-* write custom index.html template,
-* write posts.xml Atom format feed template,
+* write [custom index.html template](https://github.com/elephantum/elephantum.github.com/blob/master/index.html),
+* write [posts.xml Atom format feed template](https://github.com/elephantum/elephantum.github.com/blob/master/posts.xml),
 * setup FeedBurner account, route posts.xml through it,
-* **TODO** setup Disqus account, to turn on comments on static html-pages,
+* **TODO** setup Disqus account, to turn on comments on static
+  html-pages,
 * setup Google Analytics account, embed counter to page template.
 
 You can find all the things I did as the source of this post in
-[my GitHub repository][blogrepo].
+[my GitHub repository](http://github.com/elephantum/elephantum.github.com/).
 
 [GitHub]: http://github.com/
 [GitHub Pages]: http://pages.github.com/
-[blogrepo]: http://github.com/elephantum/elephantum.github.com/

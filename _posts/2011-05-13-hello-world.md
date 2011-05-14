@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world!
+published: false
 ---
 
 [GitHub][] finally provides nerds best publishing platform ever:
@@ -33,10 +34,14 @@ My minimal set of features I want blog to have is:
 So I had to do the following things:
 
 * write custom index.html template,
-* write posts.xml Atom format feed template,
-* setup FeedBurner account, route posts.xml through it,
-* setup Disqus account, to turn on comments on static html-pages,
+* **TODO** write posts.xml Atom format feed template,
+* **TODO** setup FeedBurner account, route posts.xml through it,
+* **TODO** setup Disqus account, to turn on comments on static html-pages,
 * setup Google Analytics account, embed counter to page template.
+
+You can find all the things I did as the source of this post in
+[my GitHub repository][blogrepo].
 
 [GitHub]: http://github.com/
 [GitHub Pages]: http://pages.github.com/
+[blogrepo]: http://github.com/elephantum/elephantum.github.com/

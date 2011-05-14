@@ -23,6 +23,7 @@ hostings and custom blog engine with the cost of some manual
 fine-tuning, it was a bliss.
 
 My minimal set of features I want blog to have is:
+
   * Markdown support,
   * code systax highlighting,
   * RSS/Atom feed (routed through FeedBurner),
@@ -30,6 +31,7 @@ My minimal set of features I want blog to have is:
   * Google Analytics support.
 
 So I had to do the following things:
+
   * write custom index.html template,
   * write posts.xml Atom format feed template,
   * setup FeedBurner account, route posts.xml through it,

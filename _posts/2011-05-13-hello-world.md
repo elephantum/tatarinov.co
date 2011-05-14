@@ -20,17 +20,17 @@ markdown support; custom blog engine requires hosting and maintanance,
 this was not that kind of important thing to occupy my attention for
 maintanance efforts. What I learned through my IT career is that time
 and attention are valuable and people tend to underestimate amount of
-time it takes to complete simple things. (Postmortem to this blog
-bootstrap showed that it took me 5 evenings to setup everything I
+time it takes to complete even very simple things. (Postmortem to this
+blog bootstrap showed that it took me 5 evenings to setup everything I
 needed, self-hosted blog would imply adding yet another layer of
 complexity.) So, when it turned out that [GitHub Pages][] combine pros
-of both blog hostings and custom blog engine at the cost of some
+of both blog hostings and custom blog engine at the cost of minor some
 manual fine-tuning, it was a bliss.
 
 The minimal set of features I want my blog to have is:
 
 * Markdown support,
-* code systax highlighting,
+* code syntax highlighting,
 * RSS/Atom feed (routed through FeedBurner),
 * comments
 * Google Analytics support.
@@ -47,6 +47,10 @@ things:
 
 You can find all the things I did as the source of this post in
 [my GitHub repository](http://github.com/elephantum/elephantum.github.com/).
+
+May be it will make sense to create quickstart repo, which you can fork to
+avoid repeating all the things to bootstrap [GitHub Pages][]
+blog. Write me if you want one.
 
 [GitHub]: http://github.com/
 [GitHub Pages]: http://pages.github.com/

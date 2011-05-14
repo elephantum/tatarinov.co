@@ -1,4 +1,6 @@
-- disqus comments
-- google analytics
-- rss/atom feed
-- feedburner
+-*- mode: outline -*-
+
+* rss/atom feed
+** template
+** feedburner
+* disqus comments

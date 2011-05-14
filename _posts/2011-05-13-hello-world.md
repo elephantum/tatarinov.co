@@ -24,19 +24,19 @@ fine-tuning, it was a bliss.
 
 My minimal set of features I want blog to have is:
 
-  * Markdown support,
-  * code systax highlighting,
-  * RSS/Atom feed (routed through FeedBurner),
-  * comments
-  * Google Analytics support.
+* Markdown support,
+* code systax highlighting,
+* RSS/Atom feed (routed through FeedBurner),
+* comments
+* Google Analytics support.
 
 So I had to do the following things:
 
-  * write custom index.html template,
-  * write posts.xml Atom format feed template,
-  * setup FeedBurner account, route posts.xml through it,
-  * setup Disqus account, to turn on comments on static html-pages,
-  * setup Google Analytics account, embed counter to page template.
+* write custom index.html template,
+* write posts.xml Atom format feed template,
+* setup FeedBurner account, route posts.xml through it,
+* setup Disqus account, to turn on comments on static html-pages,
+* setup Google Analytics account, embed counter to page template.
 
 [GitHub]: http://github.com/
 [GitHub Pages]: http://pages.github.com/

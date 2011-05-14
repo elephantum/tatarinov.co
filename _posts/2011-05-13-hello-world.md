@@ -35,7 +35,7 @@ So I had to do the following things:
 
 * write custom index.html template,
 * write posts.xml Atom format feed template,
-* **TODO** setup FeedBurner account, route posts.xml through it,
+* setup FeedBurner account, route posts.xml through it,
 * **TODO** setup Disqus account, to turn on comments on static html-pages,
 * setup Google Analytics account, embed counter to page template.
 

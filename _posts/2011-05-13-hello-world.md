@@ -3,29 +3,38 @@ layout: post
 title: Hello world!
 ---
 
-Woah, [GitHub](http://github.com/) finally provides nerds best
-publishing platform ever. I, as a proud nerd, could not help, but join
-the fun.
+[GitHub][] finally provides nerds best publishing platform ever:
+[GitHub Pages][]. I, as a proud nerd, could not help, but join the
+fun.
 
-Actually there was an unresolved tension about where to put my highly
-technical posts, which would be appreciated by very narrow set of my
-friends. I was caring too much about world entropy to create host yet
-another blog, but here it requires such a minimal effort, that it was
-worth trying.
+There was an unresolved tension about where to put my technical posts,
+which would be appreciated by very narrow set of my friends. I have
+intuitive understanding of effort to outcome ratio which was not very
+good for self-written blog, on the other hand there was no blog
+platform I liked which would not be obfuscated with technical detailes
+unrelated to the very process of writing text. (Blog hostings like
+Livejournal or Blogger lack syntax highlighting and markdown support;
+custom blog engine requires hosting and maintanance, this was not that
+kind of important thing to occupy my attention for maintanance
+efforts).
 
-Also I really appreciate this combination of git repository,
-[Jekyll](https://github.com/mojombo/jekyll/wiki) and GitHub online
-file editor. This is something, that I had in mind for some time as a
-lowest friction blog-platform.
+So, when it turned out that [GitHub Pages][] combine pros of both blog
+hostings and custom blog engine with the cost of some manual
+fine-tuning, it was a bliss.
 
-A bit about myself: I'm software engineer, currently working as SRE in
-Google, Dublin office. Historically everything I did professionally
-was spinning around high-performance web-services, so this is my best
-area of expertise. Though I consider myself technologically agnostic
-(my work implies using such a broad set of technologies
-simultaneously, that one start to care less about each specific
-technology), my strong sides are python as my favorite universal tool
-and functional programming as paradigm.
+My minimal set of features I want blog to have is:
+  * Markdown support,
+  * code systax highlighting,
+  * RSS/Atom feed (routed through FeedBurner),
+  * comments
+  * Google Analytics support.
 
-That's it. Let's hope I'll be able to maintain this blog alive for
-some time.
+So I had to do the following things:
+  * write custom index.html template,
+  * write posts.xml Atom format feed template,
+  * setup FeedBurner account, route posts.xml through it,
+  * setup Disqus account, to turn on comments on static html-pages,
+  * setup Google Analytics account, embed counter to page template.
+
+[GitHub]: http://github.com/
+[GitHub Pages]: http://pages.github.com/

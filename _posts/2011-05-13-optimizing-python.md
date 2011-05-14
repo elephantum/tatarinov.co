@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Optimizing Python program
+draft: true
 ---
 
 Some time ago I stumbled upon yet another programming language

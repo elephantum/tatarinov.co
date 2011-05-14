@@ -13,15 +13,19 @@ which would be appreciated by very narrow set of my friends. I have
 intuitive understanding of effort to outcome ratio which was not very
 good for self-written blog, on the other hand there was no blog
 platform I liked which would not be obfuscated with technical detailes
-unrelated to the very process of writing text. (Blog hostings like
-Livejournal or Blogger lack syntax highlighting and markdown support;
-custom blog engine requires hosting and maintanance, this was not that
-kind of important thing to occupy my attention for maintanance
-efforts).
+unrelated to the very process of writing text.
 
-So, when it turned out that [GitHub Pages][] combine pros of both blog
-hostings and custom blog engine with the cost of some manual
-fine-tuning, it was a bliss.
+Blog hostings like Livejournal or Blogger lack syntax highlighting and
+markdown support; custom blog engine requires hosting and maintanance,
+this was not that kind of important thing to occupy my attention for
+maintanance efforts. What I learned through my IT career is that time
+and attention are valuable and people tend to underestimate amount of
+time it takes to complete simple things. (Postmortem to this blog
+bootstrap showed that it took me 5 evenings to setup everything I
+needed, self-hosted blog would imply adding yet another layer of
+complexity.) So, when it turned out that [GitHub Pages][] combine pros
+of both blog hostings and custom blog engine at the cost of some
+manual fine-tuning, it was a bliss.
 
 The minimal set of features I want my blog to have is:
 
@@ -31,7 +35,8 @@ The minimal set of features I want my blog to have is:
 * comments
 * Google Analytics support.
 
-So I had to do the following things:
+In order to achieve this functionality I had to do the following
+things:
 
 * write [custom index.html template](https://github.com/elephantum/elephantum.github.com/blob/master/index.html),
 * write [posts.xml Atom format feed template](https://github.com/elephantum/elephantum.github.com/blob/master/posts.xml),

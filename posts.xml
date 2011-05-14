@@ -6,7 +6,7 @@ layout: nil
  
   <title>elephantum.github.com</title>
   <link href="http://elephantum.github.com/"/>
-  <!-- link type="application/atom+xml" rel="self" href="http://elephantum.github.com/posts.xml"/ -->
+  <link type="application/atom+xml" rel="self" href="http://elephantum.github.com/posts.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://elephantum.github.com/</id>
   <author>

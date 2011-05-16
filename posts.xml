@@ -14,7 +14,7 @@ layout: nil
     <email>elephantropy@gmail.com</email>
   </author>
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
   <entry>
     <id>http://elephantum.github.com/{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="http://elephantum.github.com{{ post.url }}"/>

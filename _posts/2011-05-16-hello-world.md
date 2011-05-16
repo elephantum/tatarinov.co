@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello world!
-published: false
 ---
 
 [GitHub][] finally provides nerds best publishing platform ever:
@@ -41,8 +40,7 @@ things:
 * write [custom index.html template](https://github.com/elephantum/elephantum.github.com/blob/master/index.html),
 * write [posts.xml Atom format feed template](https://github.com/elephantum/elephantum.github.com/blob/master/posts.xml),
 * setup FeedBurner account, route posts.xml through it,
-* **TODO** setup Disqus account, to turn on comments on static
-  html-pages,
+* setup Disqus account, to turn on comments on static html-pages,
 * setup Google Analytics account, embed counter to page template.
 
 You can find all the things I did as the source of this post in

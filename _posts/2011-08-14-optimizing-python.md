@@ -3,7 +3,7 @@ layout: post
 title: Optimizing Python program
 ---
 
-TLDR for the lazy ones:
+TLDR for the lazy ones
 ---
 
 * If you want pure-python program go faster, use built-in
@@ -12,7 +12,7 @@ datatypes instead of inventing your own classes.
 will be penalized by emulation costs heavily, consider geterogenous
 approach whenever possible.
 
-Story of 32s &rarr; 7s Python program optimization.
+Story of 32s &rarr; 7s Python program optimization
 ---
 
 Some time ago
@@ -45,8 +45,8 @@ Initial speed test, w/o any modifications:
 Interesting fact: PyPy does not speed things up, contrary, makes
 program go slower
 
-  * PyPy: 53s
-  * CPython: 32s.
+* PyPy: 53s
+* CPython: 32s
 
 Next, make things easier to work with in interactive mode, run under profiler.
 

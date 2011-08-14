@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Optimizing Python program
-published: false
-
 ---
 
 TLDR for the lazy ones:

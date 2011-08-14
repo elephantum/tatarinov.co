@@ -148,10 +148,15 @@ h2 {
 	padding: 0.5em;
 }
 
-pre
-{
+pre {
 	font-size: 10pt;
 	line-height: 1em;
+	background-color: lightgray;
+}
+
+code {
+	font-size: 10pt;
+	background-color: lightgray;
 }
 
 .python .k, .python .kn

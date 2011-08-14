@@ -24,7 +24,7 @@ that different from Java/C even for such computationally-heavy
 tasks.
 
 Program we are going to optimize is a brute-force search for all
-initial positions which can be solved in [peg solitaire][], .
+initial positions which can be solved in [peg solitaire][].
 
 This is a post about optimizing [Python solution][] from 32s to 7s
 (using my MacBook Pro as a test machine).
@@ -40,13 +40,18 @@ Initial speed test, w/o any modifications:
     Solutions found:   1550
     Time elapsed:      32062ms
 
-Interesting fact: PyPy does not speed things up, contrary, makes
-program go slower
+Interesting fact, [PyPy][] does not speed things up, contrary, makes
+program go slower: CPython: 32s vs PyPy - 53s (perhaps I did something
+wrong, I would appreciate demonstration of [PyPy][] greateness in
+real-world example).
 
-* PyPy: 53s
-* CPython: 32s
+[PyPy]: http://pypy.org
 
-Next, make things easier to work with in interactive mode, run under profiler.
+All the patches referenced in this post exist in my fork of peg-performance: [elephantum/peg-performance][], branch "optimize".
+
+[elephantum/peg-performance]: https://github.com/elephantum/peg-performance/tree/optimize
+
+First, make things easier to work with in interactive mode and run under profiler.
 
     In [1]: import performance
     In [2]: %prun performance.performance()
@@ -100,7 +105,7 @@ Changes: [Move: class -> tuple](https://github.com/elephantum/peg-performance/co
 Cut is so big because we eliminated `__eq__` which alone consumed 9
 seconds.
 
-Profile:
+Updated profile:
 
       1332220    5.019    0.000    7.990    0.000 performance.py:47(possibleMoves)
        322323    4.230    0.000   12.268    0.000 performance.py:139(legalMoves)

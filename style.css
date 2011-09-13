@@ -74,7 +74,7 @@ h2 {
 .content_container {
     padding-top: 2em;
 /*    margin-top: 2em; */
-    background-color: white;
+    background-color: #fdf6e3;
 }
 
 .content {
@@ -102,7 +102,7 @@ h2 {
 .tag_list a {
 	text-decoration: none;
 
-	color: white;
+	color: #fdf6e3;
 	background-color: lightgrey;
 
 	padding-left: 0.5em;

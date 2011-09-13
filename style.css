@@ -136,7 +136,7 @@ h2 {
     padding-top: 2em;
     padding-bottom: 1em;
     width: 100%;
-    background-color: lightgrey;
+    background-color: $base03;
 }
 
 .info {

@@ -1,3 +1,4 @@
+/*
 $base03:    #002b36;
 $base02:    #073642;
 $base01:    #586e75;
@@ -14,9 +15,10 @@ $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
+*/
 
 body {
-    background-color: $base03;
+    background-color: #002b36;
     font-size: 12pt;
     font-family: Arial, Verdana, Helvetica, sans serif;
     margin: 0;
@@ -136,7 +138,7 @@ h2 {
     padding-top: 2em;
     padding-bottom: 1em;
     width: 100%;
-    background-color: $base03;
+    background-color: #002b36;
 }
 
 .info {

@@ -21,6 +21,7 @@ title: style.css
 
 {% assign background_color = base3 %}
 {% assign background_em_color = base2 %}
+{% assign actionable_color = yellow %}
 
 body {
     color: {{ base00 }};
@@ -31,7 +32,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     margin-left: -0.4em;
     padding-left: 0.4em;
     margin-right: -0.4em;
@@ -43,19 +43,18 @@ a {
 }
 
 a:hover {
-	background-color: lightblue;
+	background-color: {{ background_em_color }};
 }
 
 a:link {
-    color: darkblue;
+    color: {{ actionable_color }};
 }
 
 a:visited {
-    color: darkblue;
+    color: {{ actionable_color }};
 }
 
 .header {
-/*    background-color: lightgrey; */
     padding-top: 2em;
     padding-bottom: 0;
 }

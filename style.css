@@ -1,24 +1,25 @@
-/*
-$base03:    #002b36;
-$base02:    #073642;
-$base01:    #586e75;
-$base00:    #657b83;
-$base0:     #839496;
-$base1:     #93a1a1;
-$base2:     #eee8d5;
-$base3:     #fdf6e3;
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
-*/
+{% assign base03 = "#002b36" %}
+{% assign base02 = "#073642" %}
+{% assign base01 = "#586e75" %}
+{% assign base00 = "#657b83" %}
+{% assign base0 = "#839496" %}
+{% assign base1 = "#93a1a1" %}
+{% assign base2 = "#eee8d5" %}
+{% assign base3 = "#fdf6e3" %}
+{% assign yellow = "#b58900" %}
+{% assign orange = "#cb4b16" %}
+{% assign red = "#dc322f" %}
+{% assign magenta = "#d33682" %}
+{% assign violet = "#6c71c4" %}
+{% assign blue = "#268bd2" %}
+{% assign cyan = "#2aa198" %}
+{% assign green = "#859900" %}
+
+{% assign background_color = base3 %}
+{% assign background_em_color = base2 %}
 
 body {
-    color: #657B83;
+    color: {{ base00 }};
     font-size: 12pt;
     font-family: Arial, Verdana, Helvetica, sans serif;
     margin: 0;
@@ -57,7 +58,7 @@ a:visited {
 
 .header h1 {
     margin: 0;
-    color: #657B83;
+    color: {{ base00 }};
 }
 
 .about {
@@ -70,12 +71,12 @@ a:visited {
 
 h2 {
     margin-bottom: 1em;
-    color: #657B83;
+    color: {{ base00 }};
 }
 
 .content_container {
     padding-top: 2em;
-    background-color: #fdf6e3;
+    background-color: {{ background_color }};
 }
 
 .content {
@@ -112,7 +113,7 @@ h2 {
     padding-top: 2em;
     padding-bottom: 1em;
     width: 100%;
-    background-color: #eee8d5;
+    background-color: {{ background_em_color }};
 }
 
 .info {
@@ -144,12 +145,12 @@ h2 {
 pre {
 	font-size: 10pt;
 	line-height: 1.5em;
-	background-color: #eee8d5;
+	background-color: {{ background_em_color }};
 }
 
 code {
 	font-size: 10pt;
-	background-color: #eee8d5;
+	background-color: {{ background_em_color }};
 }
 
 .python .k, .python .kn

@@ -2,7 +2,7 @@
 title: test.css
 ---
 
-{% assign base03 "#002b36" %}
+{% assign base03 = "#002b36" %}
 /*
 $base03:    #002b36;
 $base02:    #073642;

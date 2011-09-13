@@ -20,11 +20,12 @@ title: style.css
 {% assign green = "#859900" %}
 
 {% assign background_color = base3 %}
+{% assign text_color = base00 %}
 {% assign background_em_color = base2 %}
 {% assign actionable_color = yellow %}
 
 body {
-    color: {{ base00 }};
+    color: {{ text_color }};
     font-size: 12pt;
     font-family: Arial, Verdana, Helvetica, sans serif;
     margin: 0;
@@ -61,12 +62,12 @@ a:visited {
 
 .header h1 {
     margin: 0;
-    color: {{ base00 }};
+    color: {{ text_color }};
 }
 
 h2 {
     margin-bottom: 1em;
-    color: {{ base00 }};
+    color: {{ text_color }};
 }
 
 .content_container {
@@ -89,7 +90,7 @@ h2 {
 }
 
 .timestamp {
-    color: gray;
+    color: {{ base1 }};
 }
 
 .comments {
@@ -129,7 +130,7 @@ h2 {
 .photo-placeholder {
 	width: 100px; 
 	height: 100px; 
-	background-color: {{ base02 }}; 
+	background-color: {{ base00 }}; 
 	display: block; 
 	float: left; 
 	margin-right: 1em; 

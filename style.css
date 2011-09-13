@@ -64,14 +64,6 @@ a:visited {
     color: {{ base00 }};
 }
 
-.about {
-    float: right;
-    margin: 1em;
-    padding: 1em;
-    background-color: lightgrey;
-    display: inline-block;
-}
-
 h2 {
     margin-bottom: 1em;
     color: {{ base00 }};
@@ -109,7 +101,7 @@ h2 {
     padding-top: 0em;
     padding-bottom: 0em;
     width: 100%;
-    background-color: lightgrey;
+    background-color: {{ background_em_color }};
 }
 
 .info_container {
@@ -137,7 +129,7 @@ h2 {
 .photo-placeholder {
 	width: 100px; 
 	height: 100px; 
-	background-color: darkgrey; 
+	background-color: {{ base02 }}; 
 	display: block; 
 	float: left; 
 	margin-right: 1em; 

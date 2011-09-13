@@ -147,12 +147,12 @@ h2 {
 pre {
 	font-size: 10pt;
 	line-height: 1.5em;
-	background-color: lightgray;
+	background-color: #002b36;
 }
 
 code {
 	font-size: 10pt;
-	background-color: lightgray;
+	background-color: #002b36;
 }
 
 .python .k, .python .kn

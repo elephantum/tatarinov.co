@@ -95,29 +95,6 @@ h2 {
 	margin-left: 1em;
 }
 
-.tag_list {
-	font-size: 75%;
-}
-
-.tag_list a {
-	text-decoration: none;
-
-	color: #fdf6e3;
-	background-color: lightgrey;
-
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	padding-top: 0.1em;
-	padding-bottom: 0.1em;
-	border-radius: 1em;
-	margin: 0;
-	margin-right: 0.1em;
-}
-
-.tag_list a:hover {
-	background-color: lightblue;
-}
-
 .timestamp {
     color: gray;
 }

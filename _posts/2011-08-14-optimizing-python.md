@@ -3,7 +3,7 @@ layout: post
 title: Optimizing Python program
 ---
 
-TLDR for the lazy ones
+TL;DR
 ---
 
 * If you want pure-python program go faster, use built-in
